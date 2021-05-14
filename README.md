@@ -37,7 +37,7 @@
    
    + 点击右上角的`Fork`，将仓库Fork到自己的账号下
    
-     ![1.png](https://i.loli.net/2021/04/22/c3AO9MGroSKFW5Z.png)
+     ![1.png](./image/1.png)
 2. 获取Cookie
 
    + 推荐采用微信PC客户端抓包的方式获取，使用Wireshark或Charles等抓包工具，获取小程序"uestc学生情况报送“登陆时所用的cookie
@@ -46,11 +46,11 @@
 3. 添加 Cookie 至 Secrets
    + 回到自己的项目页面，依次点击`Settings`-->`Secrets`-->`New repository secret`
 
-     ![2.png](https://i.loli.net/2021/04/22/nsX6qYkMr3O7JKA.png)
+     ![2.png](./image/2.png)
 
    + `Name`中填入`COOKIE`，将抓包到的`Cookie`粘贴到`Value`中，点击`Add secret`添加
 
-     ![3.png](https://i.loli.net/2021/04/22/F2QGyZLUXtn5fDo.png)
+     ![3.png](./image/3.png)
 
      注意：
 
@@ -60,13 +60,13 @@
 
    + 回到自己的项目页面，点击上方的`Actions`，允许启动 workflows
 
-     ![4.png](https://i.loli.net/2021/04/22/odAhnRwtiTWymMz.png)
+     ![4.png](./image/4.png)
 
-     ![5.png](https://i.loli.net/2021/04/22/9fsOp2iT8md64BX.png)
+     ![5.png](./image/5.png)
 
    + 再点击左侧的`uestc_temperature_report`，再点击`Run workflow`
 
-     ![6.png](https://i.loli.net/2021/04/22/Ze8u4gKFlEtaN6o.png)
+     ![6.png](./image/6.png)
 
 以上，项目部署完毕
 
@@ -74,11 +74,11 @@
 
 + 在`Actions`页面点击`uestc_temperature_report`-->`build`-->`Run Main`查看运行日志
 
-  ![7.png](https://i.loli.net/2021/04/22/oB8qXNcUZwJfj9i.png)
+  ![7.png](./image/7.png)
 
-  ![8.png](https://i.loli.net/2021/04/22/yQiNKLM6I3SBT1A.png)
+  ![8.png](./image/8.png)
 
-  ![9.png](https://i.loli.net/2021/04/22/bYWVBTJvFGwoqDC.png)
+  ![9.png](./image/9.png)
 
   
 
